@@ -31,7 +31,7 @@ open class InfiniteCollectionView: UICollectionView {
     open weak var infiniteDelegate: InfiniteCollectionViewDelegate?
     @available(*, deprecated, message: "It becomes unnecessary because it uses UICollectionViewFlowLayout.")
     open var cellWidth: CGFloat?
-    fileprivate let dummyCount: Int = 3
+    fileprivate let dummyCount: Int = 100
     fileprivate let defaultIdentifier = "Cell"
     fileprivate var indexOffset: Int = 0
     fileprivate var pageIndex = 0
